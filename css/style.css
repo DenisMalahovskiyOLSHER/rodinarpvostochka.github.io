@@ -13,6 +13,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -118,6 +119,7 @@ footer a {
 	font-family: "Roboto Condensed",sans-serif;
 	height: auto;
 	text-align: center;
+    max-width: 990px;
 	margin-top: 20px;
 	padding-bottom: 20px;
 }
@@ -233,7 +235,7 @@ input[ type = 'submit' ]:hover {
 .site_contentSoft {
 	float: center;
 	background-color: #21242b;
-	width: 1000px;
+	width: 980px;
 	overflow: hidden;
 	margin: 0 0 10px 0;
 }
@@ -460,4 +462,85 @@ input[ type = 'submit' ]:hover {
 
 .spoiler input[type=checkbox]:checked ~ .text {
     display: block;
+}
+
+.container {
+    margin: auto;
+    position: absolute;
+}
+
+.imagenews1 {
+    float: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.col-5 {
+    height: 210px;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.col-6 {
+    height: 990px; 
+    display: inline-block;
+}
+
+.col-3 {
+    height: 280px;
+    width: 25%; 
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.news1 {
+    background-color: #1d222b;
+}
+
+.news2 {
+    background-color: #1d222b;
+}
+
+.news3 {
+    background-color: #1d222b;
+}
+
+.row {
+    font-size: 0px;
+}
+
+.col-3 .titlenews {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 19px;    
+}
+
+.col-3 .titlenews:hover {
+    text-decoration: underline;
+} 
+
+.col-3 .postdate {
+    font-size: 15px;
+}
+
+.mainchildren .news {
+    max-width: 990px
+}
+
+.news-btn {    margin-top: 20px;
+    background-color: #1d222b;
+    box-shadow: 0 0 25px #000;
+}
+
+.pnews {
+    font-size: 17px;
+    font-style: italic;
+}
+
+.datenews {
+    text-align: right;
+    font-size: 17px;
 }

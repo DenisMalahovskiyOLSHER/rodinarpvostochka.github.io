@@ -1,11 +1,11 @@
 // Настройки
-var snowCount = 30;
+var snowCount = 50;
 var snowColor = new Array("#b9dff4", "#b9dff5", "#b9dff6", "#b9dff7", "#b9dff8", "#b9dff9");
 var snowType = new Array("Times");
 var snowletter = "*"
 var sinkSpeed = 1.0;
-var snowSizeMin = 10;
-var snowSizeMax = 60;
+var snowSizeMin = 1;
+var snowSizeMax = 30;
 var snowLocation = 1; // 1 - по всему экрану, 2 - слева, 3 - по центру, 4 - справа
 
 // Элементы для работы скрипта (здесь не стоит ничего менять)
